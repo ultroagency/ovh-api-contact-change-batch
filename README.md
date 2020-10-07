@@ -14,6 +14,12 @@ composer install
 
 Generate Script Keys : [OVH API credentials](https://api.ovh.com/createToken/index.cgi?GET=/*&PUT=/*&POST=/*&DELETE=/*)
 
+Create .env file
+```bash
+cp .env.example .env
+```
+Then change value based on your credentials
+
 ## Create CSV file
 
 Create a CSV file with ID and confirmation token received by email : id,token
